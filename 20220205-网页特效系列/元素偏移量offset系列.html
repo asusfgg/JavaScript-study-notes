@@ -1,0 +1,79 @@
+<!--
+ * @Author: 千仞无锋
+ * @Date: 2022-02-04 11:48:17
+ * @LastEditors: 千仞无锋
+ * @LastEditTime: 2022-02-04 13:08:57
+ * @FilePath: \20220205-网页特效系列\元素偏移量offset系列.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="offset.js">
+    </script>
+    <style>
+        /* 这叫内嵌样式表 */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .father {
+            position: relative;
+            /* position 定位，relative相对 */
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 150px;
+            /* margin 边缘 */
+        }
+        
+        .son {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            margin-left: 45px;
+            /* 指定左侧的margin边缘 */
+        }
+        
+        .w {
+            height: 200px;
+            background-color: skyblue;
+            margin: 0 auto 200px;
+            padding: 10px;
+            /* padding 填充 */
+            border: 15px solid red;
+            /* border 边缘边界 */
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" style="width: 200px;"></div>
+    <!-- 这叫 行内样式表 -->
+    <div class="father">
+        <div class="son"></div>
+    </div>
+    <div class="w"></div>
+
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
