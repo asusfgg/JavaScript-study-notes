@@ -1,10 +1,9 @@
 '''
-Author: your name
-Date: 2022-02-16 10:46:41
-LastEditTime: 2022-02-16 23:02:16
+Author: 千仞无锋
+Date: 2022-02-16 23:03:51
 LastEditors: 千仞无锋
-Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-FilePath: \20220205Py学习\编解码02.py
+LastEditTime: 2022-02-16 23:11:22
+FilePath: \20220205Py学习\编解码测试.py
 '''
 import urllib.request
 
@@ -24,29 +23,10 @@ def baidu():
 # 调用转码函数：
 i = baidu()
 print(i)
-
-# 新的转码函数（针对多参数）
-# https://www.baidu.com/s?wd=冯若凡&sex=男
-
-# 定义一个字典
-data = {
-    'wd': '冯若凡',
-    'sex': '男',
-    'location': '陕西'
-}
-
-# urlencode方法会转码后，将字典拼接起来。
-a = urllib.parse.urlencode(data)
-print(a)
-# wd=%E5%86%AF%E8%8B%A5%E5%87%A1&sex=%E7%94%B7&location=%E9%99%95%E8%A5%BF
-
-
-
-
 # 初级请求四部曲：
 # UA设置
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
 }
 # 模拟请求
 request = urllib.request.Request(url=i, headers=headers)
@@ -60,6 +40,8 @@ content = response.read().decode('utf-8')
 print(content)
 
 # 写入文本：
+
+
 def writefile(contents):
     try:
         filename = input('文件名为: ')
@@ -71,7 +53,5 @@ def writefile(contents):
         print('文件未找到')
         pass
 
-writefile(content)
 
-# 下载html源文件：
-urllib.request.urlretrieve (url_new,'vip1.html') #不太好使。
+writefile(content)
