@@ -2779,7 +2779,7 @@
     };
 
 
-    var I_query = {"preview":false,"token":"","showApiUrl":false,"timestamp":1644937521,"sell_time_from":"","time_from":"","previewLink":"","previewTime":false,"userTypeTag":"a","brandId":"1710620765","merchandiseId":"6918544641033734109","f":"","v":0,"pageType":2,"channelId":0,"warehouse":"VIP_CD","warehouseId":4,"isTodaySale":true,"b_s":0,"b_n":0,"s_p":0,"b_p":"","postType":"","globalCartProc":2,"isPrepay":0,"openPrePayV9":0,"brandState":0,"pcSpecial":null,"appCacheRead":true,"appCacheWrite":true,"apiCacheRead":true,"apiCacheWrite":true,"addCacheTime":0,"appBackupCacheWrite":false,"appBackupCacheRead":false,"isWarmup":0,"isMulticolor":0,"template_type":null,"captchaV2":1,"moveMapi":1,"openSign":1,"closeSvipEnt":0,"openhk":1,"openproxy":1,"openV6":1,"mapiCoupon":1};
+    var I_query = {"preview":false,"token":"","showApiUrl":false,"timestamp":1644937520,"sell_time_from":"","time_from":"","previewLink":"","previewTime":false,"userTypeTag":"a","brandId":"1710620765","merchandiseId":"6918544641033734109","f":"","v":0,"pageType":2,"channelId":0,"warehouse":"VIP_CD","warehouseId":4,"isTodaySale":true,"b_s":0,"b_n":0,"s_p":0,"b_p":"","postType":"","globalCartProc":2,"isPrepay":0,"openPrePayV9":0,"brandState":0,"pcSpecial":null,"appCacheRead":true,"appCacheWrite":true,"apiCacheRead":true,"apiCacheWrite":true,"addCacheTime":0,"appBackupCacheWrite":false,"appBackupCacheRead":false,"isWarmup":0,"isMulticolor":0,"template_type":null,"captchaV2":1,"moveMapi":1,"openSign":1,"closeSvipEnt":0,"openhk":1,"openproxy":1,"openV6":1,"mapiCoupon":1};
     var S_warehouse = '';
 
     
