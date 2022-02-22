@@ -1,8 +1,8 @@
 '''
 Author: your name
 Date: 2022-02-16 10:46:41
-LastEditTime: 2022-02-16 23:02:16
-LastEditors: 千仞无锋
+LastEditTime: 2022-02-22 12:09:04
+LastEditors: Please set LastEditors
 Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 FilePath: \20220205Py学习\编解码02.py
 '''
@@ -30,9 +30,9 @@ print(i)
 
 # 定义一个字典
 data = {
-    'wd': '冯若凡',
-    'sex': '男',
-    'location': '陕西'
+    'wd': 'frf',
+    'sex': 'male',
+    'location': 'shanxi'
 }
 
 # urlencode方法会转码后，将字典拼接起来。
@@ -74,4 +74,4 @@ def writefile(contents):
 writefile(content)
 
 # 下载html源文件：
-urllib.request.urlretrieve (url_new,'vip1.html') #不太好使。
+# urllib.request.urlretrieve (url_new,'vip1.html') #不太好使。

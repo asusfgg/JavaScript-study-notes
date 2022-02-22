@@ -1,8 +1,8 @@
 '''
 Author: 千仞无锋
 Date: 2022-02-14 23:04:08
-LastEditors: 千仞无锋
-LastEditTime: 2022-02-14 23:56:01
+LastEditors: Please set LastEditors
+LastEditTime: 2022-02-18 16:08:06
 FilePath: \20220205Py学习\一个类型六个方法.py
 '''
 from email import contentmanager
@@ -29,7 +29,7 @@ print(type(response))
 # content = response.readline() # 只读取了一行
 # content = response.readlines() # 按行读取，直到读完
 
-# 返回状态码： 
+# 返回状态码：
 print(response.getcode())
 # 200证明逻辑无错误
 

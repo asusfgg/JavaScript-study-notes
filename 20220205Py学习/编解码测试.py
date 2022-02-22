@@ -1,8 +1,8 @@
 '''
 Author: 千仞无锋
 Date: 2022-02-16 23:03:51
-LastEditors: 千仞无锋
-LastEditTime: 2022-02-16 23:11:22
+LastEditors: Please set LastEditors
+LastEditTime: 2022-02-22 11:13:28
 FilePath: \20220205Py学习\编解码测试.py
 '''
 import urllib.request
@@ -23,8 +23,9 @@ def baidu():
 # 调用转码函数：
 i = baidu()
 print(i)
+
 # 初级请求四部曲：
-# UA设置
+# UA定制
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
 }
@@ -33,6 +34,7 @@ request = urllib.request.Request(url=i, headers=headers)
 # 回传响应
 response = urllib.request.urlopen(request)
 # 内容编码存储
+
 content = response.read().decode('utf-8')
 
 
@@ -55,3 +57,6 @@ def writefile(contents):
 
 
 writefile(content)
+
+
+
