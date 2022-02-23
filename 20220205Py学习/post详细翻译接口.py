@@ -1,7 +1,7 @@
 '''
 Author: your name
 Date: 2022-02-22 15:11:33
-LastEditTime: 2022-02-22 15:41:45
+LastEditTime: 2022-02-23 09:40:07
 LastEditors: Please set LastEditors
 Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 FilePath: \20220205Py学习\post详细翻译接口.py
@@ -28,7 +28,7 @@ headers = {'Accept': ' */*',
            #    'Sec-Fetch-Dest': ' empty',
            #    'Sec-Fetch-Mode': ' cors',
            #    'Sec-Fetch-Site': ' same-origin',
-              'User-Agent': ' Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56',
+           'User-Agent': ' Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56',
            #    'X-Requested-With': ' XMLHttpRequest',
            }
 data = {
